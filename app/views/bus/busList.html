@@ -1,0 +1,11 @@
+<div class="container">
+    {{page}}
+    <input ng-model="query">
+    <ul class="phones">
+        <li ng-repeat="bustime in bustimes | filter:query ">
+            <span>{{bustime.name}}</span>
+            <p>{{bustime.snippet}}</p>
+        </li>
+    </ul>
+
+</div>

@@ -1,0 +1,32 @@
+{
+  "name": "webapp",
+  "version": "0.0.0",
+  "authors": [
+    "JeonJongHyun <hyun_02@hanamil.net>"
+  ],
+  "description": "stx project",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "nodejs",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.1",
+    "angularjs": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "angular-strap": "~2.2.4",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}

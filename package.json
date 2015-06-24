@@ -1,0 +1,32 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "stx project",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.12.4",
+    "oracledb": "^0.6.0",
+    "consolidate": "^0.13.1",
+    "morgan": "^1.6.0",
+    "path": "^0.11.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeonJongHyun/nodeWeb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "angularjs"
+  ],
+  "author": "hyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeonJongHyun/nodeWeb/issues"
+  },
+  "homepage": "https://github.com/JeonJongHyun/nodeWeb#readme"
+}
