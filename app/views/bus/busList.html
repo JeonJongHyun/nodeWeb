@@ -3,8 +3,8 @@
     <input ng-model="query">
     <ul class="phones">
         <li ng-repeat="bustime in bustimes | filter:query ">
-            <span>{{bustime.name}}</span>
-            <p>{{bustime.snippet}}</p>
+            <span>{{bustime[0]}}</span>
+            <p>{{bustime[1]}}</p>
         </li>
     </ul>
 

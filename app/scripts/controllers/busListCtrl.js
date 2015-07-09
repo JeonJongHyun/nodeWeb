@@ -5,10 +5,10 @@
 var busapp = angular.module('MyApp');
 
 
-busapp.controller('BusCtrl',function($scope){
+busapp.controller('BusCtrl',function($scope,$http){
     $scope.page = 'bus page';
 
     $http.post('/bus/busList', { params: { id: '1' } }).success(function(data) {
         $scope.bustimes = data;
-    });
+    }).$promise;
 });

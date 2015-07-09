@@ -6,8 +6,8 @@
 var myApp = angular.module('MyApp',['ngRoute', 'ngAnimate', 'mgcrea.ngStrap']);
 
 myApp.config(function($routeProvider){
+   // $locationProvider.html5Mode(true);
     $routeProvider
-
         .when('/',{
             templateUrl:'views/main.html',
             controller:'MainCtrl'
@@ -19,6 +19,10 @@ myApp.config(function($routeProvider){
         .when('/diet',{
             templateUrl:'views/diet/dietList.html',
             controller:'DietCtrl'
+        })
+        .when('/login',{
+            templateUrl:'views/login.html',
+            controller:'LoginCtrl'
         })
         .otherwise({
         redirectTo:'/'

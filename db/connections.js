@@ -4,7 +4,9 @@
 var oracledb = require('oracledb');
 var dbConfig = require('./dbconfig.js');
 
-function execute(queryDate, params) {
+function execute(queryDate, params, req, res) {
+
+
     oracledb.getConnection(
         {
             user: dbConfig.user,
@@ -25,9 +27,21 @@ function execute(queryDate, params) {
                         console.error(err.message);
                         return;
                     }
-                    console.log(result.rows);
+
+                    res.send(result.rows);
+                    doRelease(connection);
                 });
         });
 };
+
+function doRelease(connection)
+{
+    connection.release(
+        function(err) {
+            if (err) {
+                console.error(err.message);
+            }
+        });
+}
 
 exports.execute = execute;

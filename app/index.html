@@ -22,7 +22,7 @@
         <li data-match-route="/bus"><a href="#/bus">Bus Schedule</a></li>
     </ul>
     <ul class="nav navbar-nav pull-right" ng-if="!currentUser">
-        <li data-match-route="/login"><a href="/login">Login</a></li>
+        <li data-match-route="/login"><a href="#/login">Login</a></li>
         <!--<li data-match-route="/signup"><a href="/signup">Sign up</a></li>-->
     </ul>
     <ul class="nav navbar-nav pull-right" ng-if="currentUser">
@@ -45,7 +45,10 @@
 
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
+<script src="scripts/controllers/login.js"></script>
 <script src="scripts/controllers/busListCtrl.js"></script>
 <script src="scripts/controllers/dietListCtrl.js"></script>
+
+<script src="scripts/services/auth.js"></script>
 </body>
 </html>
