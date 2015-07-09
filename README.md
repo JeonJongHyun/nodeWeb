@@ -9,10 +9,15 @@ PATH...
 
 # install start ~~! ready 32Bit
 1.node.js x86
+
 2.python
+
 3.visual studio
+
 4.git
+
 5.Oracle Instant Client (32bit)
+
 
 
 #after.. PATH setting
