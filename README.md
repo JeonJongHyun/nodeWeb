@@ -25,9 +25,9 @@ PATH...
 
 @Oracle Instant Client setting..
 
-set OCI_LIB_DIR=C:\oracle\instantclient\sdk\lib\msvc
+-set OCI_LIB_DIR=C:\oracle\instantclient\sdk\lib\msvc
 
-set OCI_INC_DIR=C:\oracle\instantclient\sdk\include
+-set OCI_INC_DIR=C:\oracle\instantclient\sdk\include
 
 
 @when MSbuild error occur..  setting
