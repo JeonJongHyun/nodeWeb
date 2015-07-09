@@ -1,4 +1,4 @@
-# nodeWeb
+#1. nodeWeb
 node.js angular.js oracle Project
 
 
@@ -7,7 +7,7 @@ linux install is easy..
 but, window is difficult...
 PATH...
 
-# window oracledb install ready ~~!  32Bit
+# 2.window oracledb install ready ~~!  32Bit
 1.node.js x86
 
 2.python
@@ -20,7 +20,7 @@ PATH...
 
 
 
-#after.. PATH setting
+#3.after.. PATH setting
 
 
 @Oracle Instant Client setting..
@@ -35,7 +35,7 @@ PATH...
 - SET PATH=C:\Program Files (x86)\MSBuild\12.0\Bin;%PAT
 
 
-#oracledb install complete
+#4.oracledb install complete
 
 @when error occur..
 
