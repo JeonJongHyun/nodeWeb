@@ -7,7 +7,7 @@ linux install is easy..
 but, window is difficult...
 PATH...
 
-# install start ~~! ready 32Bit
+# window oracledb install ready ~~!  32Bit
 1.node.js x86
 
 2.python
