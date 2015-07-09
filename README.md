@@ -1,6 +1,8 @@
 #1. nodeWeb
 node.js angular.js oracle Project
 
+[해당 개발자의 GITHUB 개발 항목을 참조하였습니다.](https://github.com/sahat/tvshow-tracker)
+
 
 Oracledb install
 linux install is easy..
